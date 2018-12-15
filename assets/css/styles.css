@@ -27,10 +27,6 @@ h4 {
     padding: 15px;
 }
 
-/* nav{
-    float: right;
-} */
-
 a:link {
     color: #777;
     text-decoration: none;
@@ -78,9 +74,9 @@ footer {
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
     color: white;
-    text-align: center;
+    padding-top: 20px;
     position: fixed;
-    height: 75;
+    height: 75px;
     bottom: 0;
     width: 100%;
 }
@@ -88,7 +84,6 @@ footer {
 /*ID's*/
 
 #logo {
-    /* float: left; */
     background-color: #4aaaa5;
     color: white;
     margin: 0px;
