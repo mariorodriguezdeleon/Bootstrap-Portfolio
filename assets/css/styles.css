@@ -20,7 +20,7 @@ h1 {
 
 h4 {
     font-family: Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
+    /* text-align: center; */
     background: #4aaaa5;
     color: #fff;
     margin: 10px 0 5px 0;
@@ -53,11 +53,9 @@ main > h1 {
     padding-top: 20px;
 }
 
-img {
-    float: left;
-    margin-left: 20px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+img{
+    height: 200px;
+    
 }
 
 main > hr {
