@@ -20,7 +20,6 @@ h1 {
 
 h4 {
     font-family: Georgia, Times, 'Times New Roman', serif;
-    /* text-align: center; */
     background: #4aaaa5;
     color: #fff;
     margin: 10px 0 5px 0;
@@ -54,8 +53,9 @@ main > h1 {
 }
 
 img{
+    float: left;
     height: 200px;
-    
+    width: auto;
 }
 
 main > hr {
@@ -148,14 +148,17 @@ footer {
     color: #ffffff;
 }
 
-.column {
-    float: left;
-    width: 30%;
-    padding: 10px;
+.row {
+    margin: 0px;
 }
+
 
 .gridContainer{
     padding: 20px;
     font-size: 30px;
-    text-align: center;
+    /* text-align: center; */
+}
+
+.navbar {
+    padding: 0;
 }
