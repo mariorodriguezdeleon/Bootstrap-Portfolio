@@ -68,9 +68,9 @@ main > hr {
     color: #777;
 }
 
-p {
+/* p {
     padding: 20px;
-}
+} */
 
 footer {
     background-color: #666666;
@@ -112,7 +112,7 @@ footer {
 }
 
 #message {
-    width: 98%;
+    width: 100%;
 }
 
 #formLabels {
@@ -125,6 +125,17 @@ footer {
     left: 0;
     width: 200px;
     height: 200px;
+}
+
+#marioPic {
+    margin: 0px 10px 10px 0px;
+}
+
+/*End ID's*/
+/*Begin Classes*/
+
+.container {
+    max-width: 960px;
 }
 
 .imageFrame {
@@ -174,3 +185,24 @@ footer {
 .nav > li {
     display: inline-block;
 }
+
+.gallery {
+    margin: 10px;
+}
+
+/*Begin @media max-width 640px styles*/
+
+@media only all and ( max-width: 640px ) {
+	.navigation {
+        text-align: center;
+        float: none;
+    }
+    
+    #logo {
+        width: 100%;
+        text-align: center;
+    }
+}		
+
+		/*-----End Multi-View Port Device Configurations-----*/
+		/*-----Configuration for the form control on reservations page-----
